@@ -1,5 +1,5 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+.vscode/
+# frontend
 # dependencies
 /front-react/node_modules
 /front-react/package-lock.json
@@ -19,3 +19,27 @@
 /front-react/npm-debug.log*
 /front-react/yarn-debug.log*
 /front-react/yarn-error.log*
+
+# backend
+# Distribution / packaging
+/backend/.Python
+/backend/venv/
+/backend/build/
+/backend/develop-eggs/
+/backend/dist/
+/backend/downloads/
+/backend/eggs/
+/backend/.eggs/
+/backend/lib/
+/backend/lib64/
+/backend/parts/
+/backend/sdist/
+/backend/var/
+/backend/*.egg-info/
+/backend/.installed.cfg
+/backend/*.egg
+# Serverless directories
+/backend/.serverless
+# backend npm
+/backend/node_modules/
+/backend/package-lock.json
