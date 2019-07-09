@@ -1,0 +1,21 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/front-react/node_modules
+/front-react/package-lock.json
+/front-react/.pnp
+/front-react/.pnp.js
+
+# testing
+/front-react/coverage
+# production
+/front-react/build
+# misc
+/front-react/.DS_Store
+/front-react/.env.local
+/front-react/.env.development.local
+/front-react/.env.test.local
+/front-react/.env.production.local
+/front-react/npm-debug.log*
+/front-react/yarn-debug.log*
+/front-react/yarn-error.log*
