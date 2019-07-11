@@ -20,5 +20,5 @@ serverless deploy --aws-profile serverless
 ## Deploy
 ```
 export AWS_PROFILE="serverless"
-serverless deploy
+serverless deploy -v
 ```
