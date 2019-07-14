@@ -39,7 +39,11 @@
 /backend/.installed.cfg
 /backend/*.egg
 # Serverless directories
-/backend/.serverless
+/backend/app/.serverless
+/backend/layers
 # backend npm
 /backend/node_modules/
 /backend/package-lock.json
+backend/app/__pycache__/
+
+backend/app/\.serverless/
